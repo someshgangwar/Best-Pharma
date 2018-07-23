@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Best Pharma | About Us</title>
+    <meta charset="utf-8">
+    <link rel="icon" href="./images/logo.png" type="image/gif" sizes="32x32">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.css"> </head>
+
+<body>
+    <section id="container">
+        <div class="brand"><a href="index.html">Best Pharma | Clinic</a></div>
+        <div class="call-us"><a href="tel:+9163005 32615"><span><img src="images/phone-call.svg" alt=""></span><p>Call Now</p></a></div>
+    </section>
+    <section id="container-aboutus">
+        <div class="text-content animated wow fadeInUp" data-wow-duration="1s">
+            <h1>OUR BEGINNING</h1> <span class="border-16 border-1"></span>
+            <h3>Best Pharmacy & Clinics provide quality and affordable healthcare services right in your neighborhood. Whether it is questions about your medication or prescription management, our services will make your life just a little easier.</h3> </div>
+    </section>
+    <section id="about-section2">
+        <div class="about-section2">
+            <blockquote>"At Best Pharmacy &amp; Clinics our aim is to redefine the healthcare space by providing you with affordable clinical services and discounted pharmaceuticals and over-the-counter health and hygiene products<strong> all under one roof.</strong>"</blockquote>
+            <p>Our Best Pharmacy &amp; Clinics have in-house qualified medical doctors dispensing prescription drugs and providing diagnostic services for a nominal consulting fee.</p>
+            <p>As part of our social obligations we provide free emergency house calls and routine house calls for registered users who are aged and ailing, particularly those above 70 years.</p>
+            <p>With these and many more health services, Best Pharmacy &amp; Clinic aims to bring hassle-free healthcare closer to middle class neighborhoods.</p>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-logo"> <img src="images/logo.png" alt=""> </div>
+        <div class="footer-address">
+            <h3>CONTACT</h3>
+            <p>CORPORATE ADDRESS</p>
+            <p>8-2-351/W/3/B, Road No. 3, Banjara Hills,
+                <br>Behind Times of India Building,</p>
+            <p>Hyderabad 500034</p>
+            <p>Telangana State, INDIA.</p>
+            <p>Phone: +91-40-66512309</p>
+            <p>Fax: +91-40-66512305</p>
+        </div>
+    </footer>
+    <div class="social-links">
+        <p> <span>FOLLOW US ON</span>
+            <a href="#"><img src="images/facebook-logo-button.svg" alt=""></a>
+            <a href="#"><img src="images/whatsapp-logo.svg" alt=""></a>
+            <a href="#"><img src="images/instagram-logo.svg" alt=""></a>
+            <a href="#"><img src="images/twitter-logo-button.svg" alt=""></a>
+        </p>
+    </div>
+    <script src="js/wow.js"></script>
+    <script>
+        wow = new WOW({
+            animateClass: 'animated'
+            , offset: 100
+            , callback: function (box) {
+                console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+            }
+        });
+        wow.init();
+        document.getElementById('moar').onclick = function () {
+            var section = document.createElement('section');
+            section.className = 'section--purple wow fadeInDown';
+            this.parentNode.insertBefore(section, this);
+        };
+    </script>
+</body>
+
+</html>
